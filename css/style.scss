@@ -1,0 +1,36 @@
+// Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font: 1rem/1.6 'Quicksand', san-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #20559e;
+    color: #fff;
+    margin: 0;
+    padding: 3em;
+}
+h1 {
+    font: {
+      size: 2.5rem;
+      weight: 600;
+    }
+  }
+  p {
+    font: {
+      size: 2rem;
+      weight: 400;
+    }
+    margin-left: 1em;
+  }
+  
+
+// MEDIA QUERIES
+@media screen and(max-width: 550px) {
+    body {
+        padding: 1em;
+    }
+}
